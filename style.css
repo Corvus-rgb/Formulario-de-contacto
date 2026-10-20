@@ -100,3 +100,8 @@ button:hover {
     gap: 8px;
 }
 
+@media (max-width: 600px) {
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+}
